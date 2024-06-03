@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* icons */
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* sections */
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+  
+  .section-container {
+    display: flex;
+  }
+
+/* dekstop nav */
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* profile */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 80vh;
+}
+  
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+  .section__pic-container img{
+    border-radius: 100%;
+}
+  
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+  
+.section__text p {
+    font-weight: 600;
+}
+  
+.section__text__p1 {
+    text-align: center;
+}
+  
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+  
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+  
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+  
+
+/* about */
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 80vh;
+}
+
+.about_pic-container{
+    display: flex;
+    margin: 0;
+    height: 350px;
+}
+
+.about_text-container{
+    display: flex;
+}
