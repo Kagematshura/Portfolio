@@ -273,3 +273,8 @@ a:hover {
     font-size: larger;
     gap: 1rem;
 }
+
+/* footer */
+footer{
+    display: flex;
+}
