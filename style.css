@@ -43,7 +43,13 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  gap: 4rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(218, 196, 0, 0.8); */
+  background-blend-mode: overlay;
 }
 
 .nav-links {
@@ -78,7 +84,7 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    height: 80vh;
+    /* height: 80vh; */
 }
   
 .section__pic-container {
@@ -143,29 +149,25 @@ a:hover {
 
 .about_text-container{
     display: flex;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 /* education */
 #education{
-    position: relative;
+    /* position: relative; */
 }
 
 .education_title{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+    font-size: xx-large;
 }
 
 .education_container{
     display: grid;
     gap: 1.5rem;
-}
-
-.education_sub-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 25px;
-    border: rgb(85, 85, 85) 1px solid;
-    border-radius: 2rem;
 }
 
 /* .education_container{
@@ -180,3 +182,47 @@ a:hover {
     gap: 2rem;
     justify-content: space-around;
 } */
+
+.education_sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    border: rgb(85, 85, 85) 1px solid;
+    border-radius: 2rem;
+}
+
+/* projects */
+#projects{
+
+}
+
+.projects_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: xx-large;
+}
+
+.projects_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.projects_sub-container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: rgb(85, 85, 85) 1px solid;
+    border-radius: 2rem;
+}
+
+.projects_pic-container{
+    display: flex;
+    margin: 0;
+    height: 300px;
+    width: 300px;
+}
+
+/* contact */
