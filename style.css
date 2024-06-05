@@ -216,6 +216,7 @@ a:hover {
     padding: 25px;
     border: rgb(85, 85, 85) 1px solid;
     border-radius: 2rem;
+    text-align: center;
 }
 
 .projects_pic-container{
@@ -225,4 +226,50 @@ a:hover {
     width: 300px;
 }
 
+.projects_link{
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* contact */
+#contact{
+    /* display: flex; */
+    align-content: center;
+}
+
+.contact_title{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.contact_container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.whatsapp-contact{
+    display: flex;
+    height: 50px;
+    margin: 0;
+    gap: 2rem;
+
+}
+
+.contact_sub-container{
+    display: flex;
+    padding: 15px;
+    border: rgb(85, 85, 85) 1px solid;
+    border-radius: 2rem;
+    align-items: center;
+    width: min-content;
+    justify-content: center;
+}
+
+.contact_details{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    gap: 1rem;
+}
