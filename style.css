@@ -48,7 +48,6 @@ nav {
   position: fixed;
   gap: 4rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-  /* background-color: rgba(218, 196, 0, 0.8); */
   background-blend-mode: overlay;
 }
 
@@ -83,18 +82,18 @@ a:hover {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     /* height: 80vh; */
 }
   
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: auto 0;
 }
 
-  .section__pic-container img{
+.section__pic-container img{
     border-radius: 10rem;
 }
   
@@ -135,12 +134,13 @@ a:hover {
     justify-content: center;
     gap: 1rem;
     height: 80vh;
+    align-content: center;
 }
 
 .about_pic-container{
     display: flex;
     margin: 0;
-    height: 350px;
+    height: 450px;
 }
 
 .about_pic-container img{
@@ -151,6 +151,12 @@ a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+}
+
+.about_text{
+    display: flex;
+    text-align: justify;
+    margin: 1rem auto;
 }
 
 /* education */
@@ -222,8 +228,15 @@ a:hover {
 .projects_pic-container{
     display: flex;
     margin: 0;
-    height: 300px;
     width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+.projects_pic-container img{
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .projects_link{
